@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daniel Mozo | Ingeniería de Datos</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f5f7fa;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    header h1 { margin: 0; font-size: 2.5rem; }
+    header p { margin-top: 0.5rem; font-size: 1.2rem; }
+
+    nav {
+      background: #111;
+      padding: 0.5rem;
+      position: sticky;
+      top: 0;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+      gap: 1.5rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover { text-decoration: underline; }
+
+    section {
+      max-width: 1000px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+    }
+    section h2 {
+      border-left: 6px solid #2a5298;
+      padding-left: 0.75rem;
+      margin-bottom: 1rem;
+    }
+
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      margin-bottom: 1.5rem;
+    }
+
+    .social-links a {
+      display: inline-block;
+      margin-right: 1rem;
+      text-decoration: none;
+      color: #2a5298;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 3rem;
+    }
+
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Daniel Mozo</h1>
+    <p>Estudiante de Ingeniería de Sistemas y Datos</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">Acerca de</a></li>
+      <li><a href="#cv">Currículum</a></li>
+      <li><a href="#video">Vídeo CV</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>Acerca de mí</h2>
+    <div class="card">
+      <p>
+        Soy estudiante de Ingeniería de Sistemas y Datos, con interés en el análisis de datos,
+        el machine learning y la aplicación práctica de la inteligencia artificial a problemas reales.
+        Busco desarrollar una marca personal coherente basada en el rigor técnico, la mejora continua
+        y la comunicación clara de resultados.
+      </p>
+    </div>
+  </section>
+
+  <section id="cv">
+    <h2>Currículum Vitae</h2>
+    <div class="card">
+      <p>Puedes descargar mi currículum en formato documento aquí:</p>
+      <p><a href="CVdanielMozo.pdf" target="_blank">📄 Descargar CV (PDF)</a></p>
+      <p><em>Nota: se recomienda un CV visual/infográfico, destacando datos clave y competencias.</em></p>
+    </div>
+  </section>
+
+  <section id="video">
+    <h2>Vídeo CV</h2>
+    <div class="card">
+      <p>Vídeo de presentación profesional en español:</p>
+      <!-- Sustituye el src por tu enlace de YouTube o Drive -->
+      <iframe src="https://www.youtube.com/embed/rK1Qbhlj9sA"></iframe>
+      <p style="margin-top:1rem;">Opcionalmente, puedes añadir vídeos en inglés de otras asignaturas.</p>
+    </div>
+  </section>
+
+  <section id="blog">
+    <h2>Blog</h2>
+    <div class="card">
+      <p>
+        En este blog comparto reflexiones y aprendizajes relacionados con la ingeniería de datos.
+        Primera entrada sugerida: <strong>"Introducción al uso de redes neuronales en problemas de regresión"</strong>.
+      </p>
+      <p>
+        👉 <a href="https://tublog.wordpress.com" target="_blank">Visitar mi blog</a>
+      </p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contacto y Redes Sociales</h2>
+    <div class="card">
+      <p>Puedes contactar conmigo o seguir mi perfil profesional en:</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/daniel-mozo-36440538b/" target="_blank">LinkedIn</a>
+        <a href="https://github.com" target="_blank">GitHub</a>
+        <a href="mailto:tuemail@email.com">Email</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Daniel Mozo · Marca Personal Digital</p>
+  </footer>
+
+</body>
+</html>
